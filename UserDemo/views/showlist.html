@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>showlist</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>注册用户列表</h1>
+<% items.forEach(function(item){ %>
+<h6><%= item.user_id %>,<%= item.user_name %>,<%= item.user_login %></h6>
+<% }) %>
+
+</body>
+</html>
